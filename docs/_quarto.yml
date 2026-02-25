@@ -1,0 +1,23 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Synapses at Scale - COSYNE 2026"
+  navbar:
+    left:
+      - href: workshop.ipynb
+        text: Workshop
+      - href: https://www.cosyne.org/
+        text: COSYNE
+    tools: 
+      - icon: github
+        menu:
+          - text: Tutorial Code
+            url:  https://github.com/AllenInstitute/connectomics_at_cosyne
+
+format:
+  html:
+    theme: flatly
+    css: styles.scss
+    toc: false
