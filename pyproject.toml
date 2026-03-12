@@ -10,4 +10,5 @@ dependencies = [
     "lab>=8.8",
     "matplotlib>=3.10.8",
     "seaborn>=0.13.2",
+    "standard-transform>=1.4.1",
 ]
