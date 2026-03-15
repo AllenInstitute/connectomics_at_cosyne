@@ -7,7 +7,9 @@ website:
   navbar:
     left:
       - href: workshop.ipynb
-        text: Workshop
+        text: Schedule
+      - href: https://colab.research.google.com/github/AllenInstitute/connectomics_at_cosyne/blob/main/examples/Cosyne_Data_Access.ipynb
+        text: Tutorial (Colab)
       - href: https://www.cosyne.org/
         text: COSYNE
     tools: 
