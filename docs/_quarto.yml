@@ -8,8 +8,12 @@ website:
     left:
       - href: workshop.ipynb
         text: Schedule
-      - href: https://colab.research.google.com/github/AllenInstitute/connectomics_at_cosyne/blob/main/examples/Cosyne_Data_Access.ipynb
-        text: Tutorial (Colab)
+      - text: "Tutorial"
+        menu:
+          - href: https://colab.research.google.com/github/AllenInstitute/connectomics_at_cosyne/blob/main/examples/Cosyne_Data_Access.ipynb
+            text: Interactive (Colab)
+          - Cosyne_Data_Access_rendered.ipynb
+      
       - href: https://www.cosyne.org/
         text: COSYNE
     tools: 
@@ -24,5 +28,4 @@ website:
 
 format:
   html:
-    theme: darkly
     toc: false
